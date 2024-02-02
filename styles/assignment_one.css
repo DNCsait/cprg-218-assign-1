@@ -6,17 +6,12 @@
     grid-template-columns: 1fr;
 }
 
-
-@media screen and (max-width: 768px) {
-    img {
-      min-height: 15.5rem;
-
-      }
-
-    }
+.card{
+    width: auto;
+}
   
  
-  @media screen and (min-width: 768px) {
+  @media (width > 768px){
     
     img {
       min-height: 15.5rem;
@@ -27,7 +22,6 @@
     }
     .card:last-child{
         grid-column: 1 / span 2;
-        width: auto;
 
     }
 
@@ -39,6 +33,10 @@
     }
     .card-container{
         grid-template-columns: 1fr 1fr 1fr;
+
+    }
+    .card:last-child{
+        grid-column: unset;
 
     }
   }

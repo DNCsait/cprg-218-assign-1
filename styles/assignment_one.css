@@ -28,8 +28,6 @@
     .card:last-child{
         grid-column: 1 / span 2;
         width: auto;
-        display: flex;
-        align-items: start;
 
     }
 

@@ -4,20 +4,24 @@
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr;
+
 }
 
 .card{
     width: auto;
+    height: auto;
 }
   
  
   @media (width > 768px){
     
     img {
-      min-height: 15.5rem;
+     /* min-height: 15.5rem; */
+     min-height: auto;
     }
     .card-container{
         grid-template-columns: 1fr 1fr;
+
 
     }
     .card:last-child{
@@ -29,10 +33,13 @@
 
   @media screen and (min-width: 1200px) {
     img {
-      min-height: 16.375rem;
+      /*min-height: 16.375rem;*/
+      min-height: auto;
+    
     }
     .card-container{
         grid-template-columns: 1fr 1fr 1fr;
+
 
     }
     .card:last-child{
